@@ -12,8 +12,8 @@ const db = mysql.createConnection({
         password:"macbook air",
         database:"books"
 })
-const app = express();
-c
+const app = express(); 
+
 app.use(express.json());
 app.get("/",(req,res)=>{ 
 res.json("Hello Its A Backend")
